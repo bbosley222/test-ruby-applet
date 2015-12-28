@@ -54,3 +54,11 @@ otherwise fix the test.rb error.
 
 When it is added by the normal usage, stdout/stderr seem to be closed.
 So if you need them, then run it in the command line, and add one.
+
+## Memo
+
+If you use gobject-introspection gem 3.0.7, you need to apply the patch:
+
+https://github.com/ruby-gnome2/ruby-gnome2/commit/2e4dd04021d340f163907435611737e967076aba
+
+If you use gobject-introspection gem >= 3.0.8, you may not need rb-mpa.c.
