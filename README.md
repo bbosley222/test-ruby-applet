@@ -40,3 +40,17 @@ sudo ln -s /home/masm/src/test-ruby-applet/org.mate.panel.TestApplet.mate-panel-
 1. Click the panel with the right button, and select 'Add to Panel'.
 2. Select 'Test Applet'.
 3. Click the 'Add' button.
+
+## If Something Went Wrong
+
+```
+./test.rb
+```
+
+and add the applet.
+
+If successful, then check the org.mate.panel.applet.TestAppletFactory file,
+otherwise fix the test.rb error.
+
+When it is added by the normal usage, stdout/stderr seem to be closed.
+So if you need them, then run it in the command line, and add one.
