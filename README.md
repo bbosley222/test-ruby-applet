@@ -41,7 +41,7 @@ sudo ln -s /home/masm/src/test-ruby-applet/org.mate.panel.TestApplet.mate-panel-
 2. Select 'Test Applet'.
 3. Click the 'Add' button.
 
-## If Something Went Wrong
+## If you can't get 'Test'.
 
 ```
 ./test.rb
