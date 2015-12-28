@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'gobject-introspection'
-require '/home/masm/src/mate-panel/mpa'
+require '/home/masm/src/test-ruby-applet/mpa'
 
 require 'gtk3'
 Gtk.init
