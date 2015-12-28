@@ -62,3 +62,10 @@ If you use gobject-introspection gem 3.0.7, you need to apply the patch:
 https://github.com/ruby-gnome2/ruby-gnome2/commit/2e4dd04021d340f163907435611737e967076aba
 
 If you use gobject-introspection gem >= 3.0.8, you may not need rb-mpa.c.
+
+## Environment
+
+- MATE Desktop Environment 1.12.1
+- gtk3 3.18.6
+- ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+- gem: gobject-introspection-3.0.7, gtk3-3.0.7
