@@ -1,0 +1,10 @@
+[Applet Factory]
+Id=TestAppletFactory
+InProcess=false
+Name=Test Applet Factory
+Description=Test Applet Factory
+
+[TestApplet]
+Name=Test Applet
+Description=Test Applet
+Icon=mate
