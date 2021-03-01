@@ -15,7 +15,7 @@ cd test-ruby-applet
 
 ```
 ruby extconf.rb
-make
+make 
 ```
 
 ```
